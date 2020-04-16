@@ -1,0 +1,129 @@
+{
+    "campeoes": [{
+            "nome_campeao": "França",
+            "ano": 2018,
+            "nome_tecnico": "Didier Deschamps",
+            "nome_timeDerrotado": "Croácia"
+        },
+        {
+            "nome_campeao": "Alemanha",
+            "ano": 2014,
+            "nome_tecnico": "Joachim Löw",
+            "nome_timeDerrotado": "Argentina"
+        },
+        {
+            "nome_campeao": "Espanha",
+            "ano": 2010,
+            "nome_tecnico": "Vicente Del Bosque",
+            "nome_timeDerrotado": "Holanda"
+        },
+        {
+            "nome_campeao": "Itália",
+            "ano": 2006,
+            "nome_tecnico": "Marcello Lippi",
+            "nome_timeDerrotado": "França"
+        },
+        {
+            "nome_campeao": "Brasil",
+            "ano": 2002,
+            "nome_tecnico": "Luiz Felipe Scolari",
+            "nome_timeDerrotado": "Alemanha"
+        },
+        {
+            "nome_campeao": "França",
+            "ano": 1998,
+            "nome_tecnico": "Aimé Jacquet",
+            "nome_timeDerrotado": "Brasil"
+        },
+        {
+            "nome_campeao": "Brasil",
+            "ano": 1994,
+            "nome_tecnico": "Carlos Alberto Parreira",
+            "nome_timeDerrotado": "Itália"
+        },
+        {
+            "nome_campeao": "Alemanha Ocidental",
+            "ano": 1990,
+            "nome_tecnico": "Franz Beckenbauer",
+            "nome_timeDerrotado": "Argentina"
+        },
+        {
+            "nome_campeao": "Argentina",
+            "ano": 1986,
+            "nome_tecnico": "Carlos Bilardo",
+            "nome_timeDerrotado": "Alemanha Ocidental"
+        },
+        {
+            "nome_campeao": "Itália",
+            "ano": 1982,
+            "nome_tecnico": "Enzo Bearzot",
+            "nome_timeDerrotado": "Alemanha Ocidental"
+        },
+        {
+            "nome_campeao": "Argentina",
+            "ano": 1978,
+            "nome_tecnico": "Cesar Luis Menotti",
+            "nome_timeDerrotado": "Holanda"
+        },
+        {
+            "nome_campeao": "Alemanha Ocidental",
+            "ano": 1874,
+            "nome_tecnico": "Helmut Schoen",
+            "nome_timeDerrotado": "Holanda"
+        },
+        {
+            "nome_campeao": "Brasil",
+            "ano": 1970,
+            "nome_tecnico": "Mário Zagallo",
+            "nome_timeDerrotado": "Itália"
+        },
+        {
+            "nome_campeao": "Inglaterra",
+            "ano": 1966,
+            "nome_tecnico": "Alfred Ramsey",
+            "nome_timeDerrotado": "Alemanha Ocidental"
+        },
+        {
+            "nome_campeao": "Brasil",
+            "ano": 1962,
+            "nome_tecnico": "Aymoré Moreira",
+            "nome_timeDerrotado": "Tchecoslovaquia"
+        },
+        {
+            "nome_campeao": "Brasil",
+            "ano": 1958,
+            "nome_tecnico": "Vicente Feola",
+            "nome_timeDerrotado": "Suecia"
+        },
+        {
+            "nome_campeao": "Alemanha Ocidental",
+            "ano": 1954,
+            "nome_tecnico": "Sepp Herberger ",
+            "nome_timeDerrotado": "Hungria"
+        },
+        {
+            "nome_campeao": "Uruguai",
+            "ano": 1950,
+            "nome_tecnico": "Juan Lopez Fontana",
+            "nome_timeDerrotado": "Brasil"
+        },
+        {
+            "nome_campeao": "Itália",
+            "ano": 1938,
+            "nome_tecnico": "Vittorio Pozzo",
+            "nome_timeDerrotado": "Hungria"
+        },
+        {
+            "nome_campeao": "Itália",
+            "ano": 1934,
+            "nome_tecnico": "Vittorio Pozzo",
+            "nome_timeDerrotado": "Tchecoslovaquia"
+        },
+        {
+            "nome_campeao": "Uruguai",
+            "ano": 1930,
+            "nome_tecnico": "Alberto Suppici",
+            "nome_timeDerrotado": "Argentina"
+        }
+    ]
+}

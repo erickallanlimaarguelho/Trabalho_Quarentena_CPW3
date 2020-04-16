@@ -1,0 +1,158 @@
+@import 'fontes';
+@import 'cores';
+@import 'img';
+
+#banner {
+    background-image: $img-banner2;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 1px;
+
+    .texto {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $cor-header;
+        border-top: 2px solid $cor-header;
+        border-bottom:2px solid $cor-header;
+        padding: 10px 100px;
+
+        h1 {
+            font-size: 400%;
+            font-family: $font-decorativa;
+            margin: 0;
+        }
+    }
+}
+
+#conteudo {
+
+font-family: $font-principal;
+text-align: center;
+
+    margin-top: 20px;
+
+    table {
+        border-collapse: collapse;
+        margin: 0px auto 50px auto;
+        width: 95%;
+        font-family: $font-principal ;
+
+        thead {
+            background-color: $cor-principal;
+            color: white;
+            font-size: 110%;
+        }
+
+        tr {
+
+            // Atinge apenas as linhas pares
+            &:nth-child(even) {
+                background-color: $cor-sombra;
+            }
+
+            td {
+                font-size: 100%;
+            }
+
+            th {
+                text-shadow: 1px 1px 1px #555555;
+            }
+
+            th,
+            td {
+                // Regra geral
+                text-align: center;
+                padding: 5px 0px;
+                //border: 1px solid $cor-borda;
+
+                /*
+                    Regra específica para a
+                    primeira coluna
+                 */
+                &:first-child {
+                    text-align: left;
+                    padding-left: 5px;
+                }
+
+                //&:nth-child()
+
+                /*
+                    Regra específica para a
+                    última coluna
+                 */
+                &:last-child {
+                    text-align: right;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+
+}
+
+#rodape {
+    background-color: $cor-principal;
+    color: $cor-header;
+    padding: 20px 0px;
+    display: table;
+    width: 100%;
+
+    * {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .copyright,
+    .contato,
+    .poweredBy {
+        width: calc(100%/3);
+    }
+
+    .copyright {
+        padding-left: 20px;
+        font-family: $font-decorativa;
+        font-size: 120%;
+    }
+
+    .contato {
+
+        * {
+            display: block;
+            text-align: center;
+        }
+
+        h3 {
+            font-family: $font-decorativa;
+            font-size: 140%;
+        }
+
+        div {
+            * {
+                display: inline;
+            }
+
+            img {
+                width: 25px;
+                padding-right: 10px;
+                -webkit-filter: brightness(0) invert(1);
+
+            }
+
+
+        }
+    }
+
+    .poweredBy{
+        * {
+            display: block;
+            text-align: right;
+            padding-right: 20px;
+        }
+    }
+}
